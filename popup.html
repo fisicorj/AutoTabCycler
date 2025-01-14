@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoTabCycle Settings</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>AutoTabCycle</h1>
+  <label for="interval">Select Interval:</label>
+  <select id="interval">
+    <option value="5000">5 Seconds</option>
+    <option value="10000" selected>10 Seconds</option>
+    <option value="15000">15 Seconds</option>
+    <option value="30000">30 Seconds</option>
+  </select>
+  <button id="saveInterval">Save</button>
+  <button id="stopRotation">Stop</button>
+  <script src="popup.js"></script>
+</body>
+</html>
