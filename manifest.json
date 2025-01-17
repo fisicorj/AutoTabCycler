@@ -3,7 +3,6 @@
   "name": "AutoTabCycler",
   "version": "1.0",
   "description": "AutoTabCycler automatically rotates through open tabs at set intervals. Requires access to tabs to perform automatic tab switching.",
-  "permissions": ["tabs", "storage"],
   "background": {
     "service_worker": "background.js"
   },
